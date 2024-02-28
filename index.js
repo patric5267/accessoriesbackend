@@ -11,10 +11,7 @@ app.use(require('./routes/cart'))
 app.get('/' , (req,res)=>{
    res.send("Home")
 })
-// async function deleteitem(){
-//   await cart.deleteMany({email:"anuj729094@gmail.com"})
-// } 
-// deleteitem()
+
 
 app.listen(port , ()=>{
     console.log(`Server started at ${port}`);
